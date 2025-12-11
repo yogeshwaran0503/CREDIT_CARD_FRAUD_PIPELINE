@@ -1,0 +1,11 @@
+data:
+  raw_path: data/creditcard.csv
+  sample_path: data/creditcard_sample.csv
+artifacts:
+  model_path: artifacts/model.pkl
+  scaler_path: artifacts/scaler.pkl
+training:
+  test_size: 0.2
+  random_state: 42
+  n_estimators: 100
+  max_depth: null
